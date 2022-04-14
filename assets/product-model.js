@@ -49,7 +49,8 @@ window.ProductModel = {
       modelJSON.remove();
     });
     window.ShopifyXR.setupXRElements();
+    console.log(window.ShopifyXR);
   },
 };
-console.log(window.ShopifyXR);
+
 window.addEventListener('DOMContentLoaded', () => { window.ProductModel?.loadShopifyXR(); });
