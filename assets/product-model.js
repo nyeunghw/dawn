@@ -51,6 +51,5 @@ window.ProductModel = {
     window.ShopifyXR.setupXRElements();
   },
 };
-
-console.log(window.ProductModel);
+console.log(window.ShopifyXR);
 window.addEventListener('DOMContentLoaded', () => { window.ProductModel?.loadShopifyXR(); });
